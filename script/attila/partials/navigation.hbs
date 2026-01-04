@@ -1,0 +1,29 @@
+<ul class="nav">
+    {{#foreach navigation}}
+        {{#if @first}} <!-- Start Parent UL -->
+            <li class="nav-item {{#if children}}menu-item-has-children{{/if}}">
+                <a href="{{url absolute="true"}}">{{label}}</a>
+
+                {{#if children}}
+                    <ul class="dropdown">
+                        {{#foreach children}}
+                            <li><a href="{{url absolute="true"}}">{{label}}</a></li>
+                        {{/foreach}}
+                    </ul>
+                {{/if}}
+            </li>
+        {{else}}
+            <li class="nav-item"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/if}}
+    {{/foreach}}
+
+    <!-- Dynamic "Topics" Dropdown -->
+    <li class="nav-item menu-item-has-children">
+        <a href="#">Topics ▼</a>
+        <ul class="dropdown">
+            {{#foreach tags visibility="public"}}
+                <li><a href="{{url}}">{{name}}</a></li>
+            {{/foreach}}
+        </ul>
+    </li>
+</ul>

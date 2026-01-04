@@ -99,3 +99,122 @@ grunt compress
 ## ⚖️ Copyright & License
 
 Copyright (C) 2015-2024 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
+
+attila
+├── author.hbs
+├── default.hbs
+├── Gruntfile.js
+├── index.hbs
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── page.hbs
+├── post.hbs
+├── README.md
+├── tag.hbs
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── font/
+│   │   ├── cardo-v9-latin-700.eot
+│   │   ├── cardo-v9-latin-700.svg
+│   │   ├── cardo-v9-latin-700.ttf
+│   │   ├── cardo-v9-latin-700.woff
+│   │   ├── cardo-v9-latin-700.woff2
+│   │   ├── cardo-v9-latin-italic.eot
+│   │   ├── cardo-v9-latin-italic.svg
+│   │   ├── cardo-v9-latin-italic.ttf
+│   │   ├── cardo-v9-latin-italic.woff
+│   │   ├── cardo-v9-latin-italic.woff2
+│   │   ├── cardo-v9-latin-regular.eot
+│   │   ├── cardo-v9-latin-regular.svg
+│   │   ├── cardo-v9-latin-regular.ttf
+│   │   ├── cardo-v9-latin-regular.woff
+│   │   ├── cardo-v9-latin-regular.woff2
+│   │   ├── fira-sans-v8-latin-500.eot
+│   │   ├── fira-sans-v8-latin-500.svg
+│   │   ├── fira-sans-v8-latin-500.ttf
+│   │   ├── fira-sans-v8-latin-500.woff
+│   │   ├── fira-sans-v8-latin-500.woff2
+│   │   ├── fira-sans-v8-latin-700.eot
+│   │   ├── fira-sans-v8-latin-700.svg
+│   │   ├── fira-sans-v8-latin-700.ttf
+│   │   ├── fira-sans-v8-latin-700.woff
+│   │   ├── fira-sans-v8-latin-700.woff2
+│   │   ├── fira-sans-v8-latin-regular.eot
+│   │   ├── fira-sans-v8-latin-regular.svg
+│   │   ├── fira-sans-v8-latin-regular.ttf
+│   │   ├── fira-sans-v8-latin-regular.woff
+│   │   └── fira-sans-v8-latin-regular.woff2
+│   ├── images/
+│   │   └── background.png
+│   └── js/
+│       └── script.js
+├── locales/
+│   ├── ar.json
+│   ├── ca.json
+│   ├── cs.json
+│   ├── de.json
+│   ├── dk.json
+│   ├── el.json
+│   ├── en.json
+│   ├── eo.json
+│   ├── es.json
+│   ├── fa.json
+│   ├── fi.json
+│   ├── fr.json
+│   ├── ga.json
+│   ├── ge.json
+│   ├── hu.json
+│   ├── id.json
+│   ├── it.json
+│   ├── ja.json
+│   ├── lt.json
+│   ├── nl.json
+│   ├── no.json
+│   ├── pl.json
+│   ├── pt.json
+│   ├── ro.json
+│   ├── ru.json
+│   ├── sv.json
+│   ├── th.json
+│   ├── tr.json
+│   ├── uk.json
+│   ├── vi.json
+│   ├── zh.json
+│   └── zh_tw.json
+├── partials/
+│   ├── loop.hbs
+│   ├── navigation-meta.hbs
+│   ├── navigation.hbs
+│   ├── pagination.hbs
+│   ├── subscribe_form.hbs
+│   └── icons/
+│       ├── icon-arrow-left.hbs
+│       ├── icon-arrow-right.hbs
+│       ├── icon-facebook.hbs
+│       ├── icon-globe.hbs
+│       ├── icon-linkedin.hbs
+│       ├── icon-mail.hbs
+│       ├── icon-menu.hbs
+│       ├── icon-rss.hbs
+│       ├── icon-search.hbs
+│       ├── icon-share.hbs
+│       ├── icon-star.hbs
+│       └── icon-twitter.hbs
+└── src/
+    ├── screenshot-desktop.jpg
+    ├── screenshot-mobile.jpg
+    ├── screenshot.png
+    ├── js/
+    │   ├── script.js
+    │   └── libs/
+    │       ├── highlight.pack.js
+    │       ├── jquery.fitvids.js
+    │       └── jquery.min.js
+    └── sass/
+        ├── _colors.scss
+        ├── _fonts.scss
+        ├── _highlight.scss
+        ├── _normalize.scss
+        └── style.scss
